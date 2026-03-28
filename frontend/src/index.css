@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  color: #1f2933;
+  background:
+    radial-gradient(circle at top left, rgba(239, 131, 84, 0.22), transparent 30%),
+    radial-gradient(circle at top right, rgba(60, 110, 113, 0.18), transparent 28%),
+    linear-gradient(180deg, #fffaf4 0%, #f7efe5 100%);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: transparent;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.brand-title {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.glass-panel {
+  background: rgba(255, 250, 244, 0.82);
+  backdrop-filter: blur(10px);
+}
+
