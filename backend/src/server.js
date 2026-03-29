@@ -6,6 +6,7 @@ dotenv.config();
 
 const app = require("./app");
 const connectDB = require("./config/db");
+console.log("ENV CHECK:", process.env.MONGO_URI);
 
 const uploadsDir = path.join(__dirname, "..", "uploads");
 
